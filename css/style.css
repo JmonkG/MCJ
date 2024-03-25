@@ -50,7 +50,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #00bbf0;
+  color: #8F716B;
 }
 
 .heading_container p {
@@ -168,7 +168,8 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #00bbf0;
+  color: #282F44;
+  font-weight:bold;
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -184,7 +185,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #00bbf0;
+  color: #282F44;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -259,6 +260,7 @@ a:focus {
           align-items: center;
   position: relative;
   padding: 45px 0 145px 0;
+  background-color:#181D27;
 }
 
 .slider_section .row {
@@ -275,6 +277,7 @@ a:focus {
 .slider_section .detail-box {
   color: #00204a;
 }
+
 
 .slider_section .detail-box h1 {
   font-size: 3rem;
@@ -306,7 +309,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #00bbf0;
+  background-color: #9A031E;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -315,7 +318,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #007fa4;
+  background-color: #9A031E;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -395,11 +398,12 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #00bbf0;
+  background-color: #9A031E;
 }
 
 .service_section {
   position: relative;
+  background-color: #ffffff;
 }
 
 .service_section .box {
@@ -431,14 +435,30 @@ a:focus {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 125px;
-  min-width: 75px;
-  height: 75px;
-  margin-bottom: 15px;
+  min-width: 125px;
+  height: 125px;
+  margin-bottom: 125px;
+}
+.box_tp {
+  position:relative;
+  width:1200px;
+  height:200px;
+
+}
+.image_tp {
+  max-width: 50%;
+  max-height: 50%;
+  position:absolute;
+  top: 0;
+  right:0;
+
 }
 
 .service_section .box .img-box img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 250px;
+  height: auto;
+  /*max-width: 100px;
+  max-height: auto;*/
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -483,8 +503,8 @@ a:focus {
 }
 
 .about_section {
-  background-color: #00204a;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #0c0c0c;
 }
 
 .about_section .heading_container {
@@ -524,7 +544,18 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #007fa4;
 }
-
+.why_container{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.why_section{
+  background-color: #ffffff;
+}
+.why_parg{
+  font-size:20px;
+  text-indent: 2em;
+  text-align:justify;
+}
 .why_section .box {
   margin-top: 45px;
   display: -webkit-box;
@@ -539,15 +570,26 @@ a:focus {
           align-items: center;
   text-align: center;
 }
-
+.about_img_custom{
+  width:100%;
+  position:absolute;
+  top:-900px;
+  left:0px;
+  z-index:0;
+  height:auto;
+}
+.container-custom{
+  width: 130%; 
+  height: auto;
+}
 .why_section .box .img-box {
   margin-bottom: 20px;
-  width: 120px;
-  height: 120px;
-  min-width: 120px;
-  min-height: 120px;
+  width: 800px;
+  height: 800px;
+  min-width: 800px;
+  min-height: 800px;
   border-radius: 100%;
-  border: 5px solid #00204a;
+  /*border: 5px solid #00204a;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -558,9 +600,8 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .why_section .box .img-box img {
-  width: 55px;
+  width: 750px;
   height: auto;
   fill: #00204a;
 }
@@ -648,7 +689,10 @@ a:focus {
 .team_section .team_container .box .detail-box {
   margin: 25px 0;
 }
-
+.detail-box em{
+  color:#a60e0e;
+  font-weight: bold;
+}
 .team_section .team_container .box .detail-box h5 {
   color: #00bbf0;
   font-weight: 600;
@@ -775,7 +819,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
+  background-color:#9A031E;/*#00204a;*/
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
@@ -851,7 +895,9 @@ a:focus {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
+.header_section{
+  background-color:#8f7125;
+}
 .info_section .info_links a {
   display: -webkit-box;
   display: -ms-flexbox;

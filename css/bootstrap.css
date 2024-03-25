@@ -477,7 +477,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 300%;
   height: auto;
 }
 
@@ -1025,9 +1025,9 @@ pre code {
     max-width: 25%;
   }
   .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    -ms-flex: 0 50.0%;
+    flex: 0 50.0%;
+    max-width: 50.0%;
   }
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
@@ -5316,7 +5316,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .media-body {
   -ms-flex: 1;
-  flex: 1;
+  flex-grow: 2;
 }
 
 .list-group {
